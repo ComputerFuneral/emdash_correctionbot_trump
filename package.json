@@ -1,0 +1,41 @@
+{
+  "name": "dammitDonald",
+  "description": "Donald Trump Refuses the mighty em dash— let's correct him",
+  "version": "0.1.0",
+  "homepage": "https://github.com/parameterblack/dammitDonald",
+  "author": {
+    "name": "Dylan Winter",
+    "email": "hello@parameter.black",
+    "url": "www.parameter.black"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/parameterblack/dammitDonald.git"
+  },
+  "bugs": {
+    "url": "https://github.com/parameterblack/dammitDonald/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/parameterblack/dammitDonald/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "underscore": "~1.5.1",
+    "underscore.deferred": "~0.4.0",
+    "rita": "~1.0.951",
+    "twit": "~1.1.19",
+    "wordfilter": "*",
+    "ent": "2.2.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-notify": "~0.2.18"
+  },
+  "keywords": []
+}
